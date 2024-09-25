@@ -1,0 +1,33 @@
+# Vagrant files
+.vagrant/
+# Ignore Vagrant's temporary files
+.vagrant/machines/*
+.vagrant/rgloader/*
+
+# Spring Boot specific
+target/
+# Compiled class files
+*.class
+# Log files
+*.log
+# JAR files
+*.jar
+# Dependencies
+*.war
+# IDE specific files
+.idea/
+*.iml
+*.hprof
+
+# MacOS specific
+.DS_Store
+
+# Eclipse specific
+.classpath
+.project
+.settings/
+
+# Intellij specific
+out/
+
+*.tar.*
