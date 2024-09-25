@@ -1,6 +1,6 @@
 # Vagrant Project with Apache Tomcat and Spring Boot
 
-This project uses Vagrant to provision a virtual environment that installs Apache Tomcat and runs a Spring Boot application, automating the setup with shell scripts. Ideal for consistent development and testing.
+This project uses Vagrant to provision a virtual environment that installs Apache Tomcat and runs a Spring Boot application, automating the setup with shell scripts. The environment features complete provisioning using shell scripts to install all necessary dependencies, ensuring a streamlined setup process. This approach is ideal for consistent development and testing, as it eliminates manual configuration steps and allows for quick deployment in a reproducible environment.
 
 ## Prerequisites
 
@@ -33,7 +33,7 @@ http://localhost:8080
 
 ## Validation
 
-To validate that the application is running, navigate to http://localhost:8080 in your browser. You should see the application’s homepage.
+To validate that the application is running, navigate to http://localhost:8080/app/ in your browser. You should see the application’s homepage.
 
 ## Troubleshooting
 
@@ -46,5 +46,3 @@ If you encounter any issues during setup or execution, consider the following:
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
