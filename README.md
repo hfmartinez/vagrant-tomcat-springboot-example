@@ -15,8 +15,8 @@ Before you begin, ensure you have the following installed:
 1. Clone the repository:
 
 ```
-   git clone https://github.com/hfmartinez/vagrant_example.git
-   cd vagrant_example
+   git clone https://github.com/hfmartinez/vagrant-tomcat-springboot-example.git
+   cd vagrant-tomcat-springboot-example
 ```
 
 2. Start the environment:
