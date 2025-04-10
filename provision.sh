@@ -10,10 +10,10 @@ if ! id "tomcat" &>/dev/null; then
 fi
 
 # Install Apache Tomcat
-wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.95/bin/apache-tomcat-9.0.95.tar.gz
-sudo tar xzf apache-tomcat-9.0.95.tar.gz -C /opt
-sudo ln -s /opt/apache-tomcat-9.0.95 /opt/tomcat
-sudo chown -R tomcat:tomcat /opt/apache-tomcat-9.0.95
+wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.102/bin/apache-tomcat-9.0.102.tar.gz
+sudo tar xzf apache-tomcat-9.0.102.tar.gz -C /opt
+sudo ln -s /opt/apache-tomcat-9.0.102 /opt/tomcat
+sudo chown -R tomcat:tomcat /opt/apache-tomcat-9.0.102
 
 # Set environment variables for Tomcat
 echo 'export CATALINA_HOME=/opt/tomcat' | sudo tee -a /etc/profile

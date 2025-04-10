@@ -1,6 +1,6 @@
 Vagrant.configure("2") do |config|
   # Specify the base box for the virtual machine
-  config.vm.box = "ubuntu/bionic64"
+  config.vm.box = "bento/ubuntu-20.04-arm64"
 
   # Configure network settings
   # Forward port 8080 from the guest VM to port 8080 on the host machine
@@ -11,10 +11,10 @@ Vagrant.configure("2") do |config|
 
   # Configure the virtual machine's hardware resources
   # Set the amount of memory (RAM) allocated to the VM
-  config.vm.provider "virtualbox" do |vb|
+  config.vm.provider "vmware_desktop" do |vb|
     vb.memory = "2048" # Memory in MB
     vb.cpus = 2 # Number of CPUs
-    # vb.gui = true
+    vb.gui = true
   end
 
   # Increase the boot timeout
